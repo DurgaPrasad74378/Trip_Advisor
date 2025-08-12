@@ -88,7 +88,7 @@ const BudgetCalculator = () => {
                     tooltip: {
                       callbacks: {
                         label: (context) => {
-                          return `$${context.raw} (${Math.round(context.parsed)}%)`;
+                          return `₹${context.raw} (${Math.round(context.parsed)}%)`;
                         }
                       }
                     }
@@ -141,19 +141,19 @@ const BudgetCalculator = () => {
                   </Form.Group>
                   <Form.Group className="mb-4">
                     <Form.Label>
-                      Total Budget: <strong>${formData.budget}</strong>
+                      Total Budget: <strong>₹{formData.budget}</strong>
                     </Form.Label>
                     <Form.Range
                       name="budget"
-                      min="500"
-                      max="10000"
-                      step="100"
+                      min="5000"
+                      max="100000"
+                      step="1000"
                       value={formData.budget}
                       onChange={handleChange}
                     />
                     <div className="d-flex justify-content-between text-muted small mt-1">
-                      <span>$500</span>
-                      <span>$10,000</span>
+                      <span>₹5000</span>
+                      <span>₹1,00,000</span>
                     </div>
                   </Form.Group>
                   <button 

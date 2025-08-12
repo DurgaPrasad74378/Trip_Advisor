@@ -14,10 +14,10 @@ const HeroSection = () => {
           {/* Left Content */}
           <Col lg={6} className="text-center text-lg-start mb-5 mb-lg-0">
             <h1 className="display-4 fw-bold mb-3">
-              Your Perfect Trip, <br /> Powered by <span className="text-primary">AI</span>
+              Discover & Plan <br /> Your <span className="text-primary">Perfect Getaway</span>
             </h1>
             <p className="lead text-muted mb-4">
-              Get personalized travel recommendations and curated itineraries tailored to your budget and preferences.
+              Discover destinations and itineraries that fit your budget and travel style.
             </p>
 
             <div className="search-box bg-white p-4 rounded shadow-sm">

@@ -4,7 +4,7 @@ const Features = () => {
   const features = [
     {
       icon: 'fas fa-robot',
-      title: 'AI Trip Recommendations',
+      title: 'Smart Trip Recommendations',
       description: 'Get personalized destination suggestions based on your interests, budget, and travel history.',
       color: 'primary'
     },

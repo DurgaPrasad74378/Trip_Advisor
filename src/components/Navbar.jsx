@@ -17,7 +17,7 @@ const CustomNavbar = () => {
           href="#"
           style={{ fontWeight: 'bold', fontSize: '1.4rem', color: '#f5f5f5' }}
         >
-          <i className="fas fa-route me-2"></i>AI Trip Genius
+          <i className="fas fa-route me-2"></i>Smart Trip Guide
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbarNav" />

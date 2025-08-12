@@ -7,9 +7,9 @@ const Footer = () => {
         <Row className="gy-4">
           {/* Left: Brand and Socials */}
           <Col md={6}>
-            <h4 className="mb-3"><i className="fas fa-globe me-2"></i>AI Trip Genius</h4>
+            <h4 className="mb-3"><i className="fas fa-globe me-2"></i>Trip Advisor</h4>
             <p className="text-white-50">
-              Discover smarter ways to travel. Plan your next trip with confidence, convenience, and AI-powered guidance.
+              Your trusted guide for confident, convenient travel planning.
             </p>
             <div className="mt-3">
               <a href="#" className="text-white-50 me-3 footer-icon"><i className="fab fa-facebook-f"></i></a>
@@ -32,7 +32,7 @@ const Footer = () => {
               </Col>
               <Col sm={6}>
                 <h6 className="text-uppercase fw-bold mb-3">Contact</h6>
-                <p className="text-white-50 mb-1"><i className="fas fa-envelope me-2"></i> iter@aitripgenius.com</p>
+                <p className="text-white-50 mb-1"><i className="fas fa-envelope me-2"></i> dpm@tripadivisor.com</p>
                 <p className="text-white-50 mb-1"><i className="fas fa-phone me-2"></i> +91 9987655632</p>
               </Col>
             </Row>
@@ -43,7 +43,7 @@ const Footer = () => {
 
         <Row>
           <Col className="text-center">
-            <p className="small text-white-50 mb-0">© 2025 AI Trip Genius. Built for travellers & explorers 🌍</p>
+            <p className="small text-white-50 mb-0">© 2025 Trip Advisor. Crafted for Every Journey 🌍</p>
           </Col>
         </Row>
       </Container>
