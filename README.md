@@ -1,12 +1,55 @@
-# React + Vite
+# AI Trip Genius – Smart Travel Planning (React + Vite + SCSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Trip Genius is a modern travel planning web app built with **React + Vite**, styled using **Bootstrap 5** and **SCSS**.  
+It offers destination search, budget calculation, itinerary planning, and a sleek responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🏙 Destination search and budget-based filtering
+- 📅 AI-inspired trip planner with sample itineraries
+- 💰 Interactive budget calculator using Chart.js
+- 📱 Mobile-friendly responsive design with Bootstrap 5
+- ⭐ Auto-rotating testimonials slider
+- 🧩 Component-based React architecture
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend:** React + Vite
+- **Styling:** SCSS, Bootstrap 5
+- **Charts:** Chart.js
+- **Icons:** Font Awesome
+- **State Management:** React Hooks
+
+---
+
+## 📂 Folder Structure
+TRIP-ADVISOR/
+├── src/
+│ ├── components/
+│ │ ├── BudgetCalculator.jsx
+│ │ ├── CTA.jsx
+│ │ ├── Destinations.jsx
+│ │ ├── Features.jsx
+│ │ ├── Footer.jsx
+│ │ ├── HeroSection.jsx
+│ │ ├── Navbar.jsx
+│ │ ├── Testimonials.jsx
+│ │ ├── TripPlanner.jsx
+│ ├── styles/
+│ │ ├── _variables.scss
+│ │ ├── main.scss
+│ ├── App.jsx
+│ ├── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+## SCREENSHOTS
+<img width="1918" height="908" alt="image" src="https://github.com/user-attachments/assets/feb8710a-405e-4916-aae4-614e920ac967" />
+<img width="1882" height="839" alt="image" src="https://github.com/user-attachments/assets/62dec596-583f-4c3b-b39c-c591084edb1e" />
+<img width="1882" height="839" alt="image" src="https://github.com/user-attachments/assets/31d46c4a-aaff-4bd0-addd-efeca8db2dcb" />
+
+
