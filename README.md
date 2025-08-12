@@ -1,13 +1,13 @@
-# AI Trip Genius – Smart Travel Planning (React + Vite + SCSS)
+# Trip Advisor – Personalized Travel Planning (React + Vite + SCSS)
 
-AI Trip Genius is a modern travel planning web app built with **React + Vite**, styled using **Bootstrap 5** and **SCSS**.  
+Trip Advisor is a modern travel planning web app built with **React + Vite**, styled using **Bootstrap 5** and **SCSS**.  
 It offers destination search, budget calculation, itinerary planning, and a sleek responsive UI.
 
 ---
 
 ## 🚀 Features
 - 🏙 Destination search and budget-based filtering
-- 📅 AI-inspired trip planner with sample itineraries
+- 📅 Trip planner with sample itineraries
 - 💰 Interactive budget calculator using Chart.js
 - 📱 Mobile-friendly responsive design with Bootstrap 5
 - ⭐ Auto-rotating testimonials slider
